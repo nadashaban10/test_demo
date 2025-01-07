@@ -85,17 +85,17 @@ function Home() {
               </li>
             </ul>
           </div>
-          <div className="flex justify-start items-center flex-row space-x-3 ml-3">
+          <div className=" justify-start items-center flex-row space-x-3 ml-3 hidden sm:flex ">
             <IoIosCloudOutline className="text-xl" />
             <span className="text-[15px]">Storage (75% used)</span>
           </div>
-          <div className="h-[3px] w-[100px] bg-blue-600 mt-1 relative rounded-full ml-3"></div>
-          <div className="bg-white h-[3px] w-[4px] absolute bottom-[95px] left-[125px] rounded-full"></div>
-          <div className="bg-gray-300 h-[3px] w-[40px] absolute sm:bottom-[95px] sm:left-[128px] bottom-[282px] left-[126px] rounded-full"></div>
-          <span className="absolute sm:bottom-[64px] bottom-[250px]  left-[30px] text-gray-800 text-[14px]">
+          <div className="h-[3px] w-[100px] bg-blue-600 mt-1 relative rounded-full ml-3 hidden sm:flex  "></div>
+          <div className="bg-white h-[3px] w-[4px] hidden sm:flex  absolute bottom-[95px] left-[125px] rounded-full"></div>
+          <div className="bg-gray-300 h-[3px] w-[40px] hidden sm:flex  absolute sm:bottom-[95px] sm:left-[128px] bottom-[282px] left-[126px] rounded-full"></div>
+          <span className="absolute sm:bottom-[64px] hidden sm:flex  left-[30px] text-gray-800 text-[14px]">
             15 GB of 20 GB used
           </span>
-          <button className="flex items-center px-3 justify-center w-[160px] h-[35px] rounded-full hover:bg-gray-100 absolute sm:bottom-[20px] bottom-[180px] left-[20px] sm:left-[25px] border border-blue-600 text-[15px]">
+          <button className=" hidden sm:flex  items-center px-3 justify-center w-[160px] h-[35px] rounded-full hover:bg-gray-100 absolute sm:bottom-[20px] bottom-[180px] left-[20px] sm:left-[25px] border border-blue-600 text-[15px]">
             Get more storage
           </button>
         </div>
