@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  background-color: #f9fafb;
+
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+.inputshadow:focus {
+  box-shadow: 2px 2px 2px 2px rgba(219, 219, 219, 0.3); /* Soft gray with opacity */
+  outline: none;
+}
+.btnshadow {
+  box-shadow:1px 1px 1px 1px rgba(219, 219, 219, 0.5); /* Soft gray with opacity */
+}
